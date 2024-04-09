@@ -21,8 +21,16 @@ miArreglo3= np.array(miLista3, dtype= int)
 print(miArreglo3.ndim)
 print(miArreglo3)
 
+#segunda forma de crear arreglos funciones de rellenos "0" y "1"
 
+miArreglo4= np.ones((2,2))
+print(miArreglo4)
 
+miArreglo5= np.zeros((2,2))
+print(miArreglo5)
+
+miArreglo6= np.empty((5,4))
+print(miArreglo6)
 
 
 
