@@ -32,6 +32,16 @@ print(miArreglo5)
 miArreglo6= np.empty((5,4))
 print(miArreglo6)
 
+miArreglo7= np.arange(10)
+print(miArreglo7)
+
+miArreglo8= np.arange(-10,10)
+print(miArreglo8.ndim)
+
+miArreglo8.reshape((2,10))
+
+
+
 
 
 
