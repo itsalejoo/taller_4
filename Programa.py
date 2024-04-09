@@ -40,6 +40,14 @@ print(miArreglo8.ndim)
 
 miArreglo8.reshape((2,10))
 
+#linspace
+
+miArreglo9= np.linspace(0,100,1000)
+print(miArreglo9)
+
+
+
+
 
 
 
