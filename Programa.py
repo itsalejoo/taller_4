@@ -61,10 +61,3 @@ print(miArreglo9)
 
 
 
-
-
-
-
-
-
-
