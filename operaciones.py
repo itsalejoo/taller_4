@@ -56,11 +56,16 @@ y= np.array([[5,10,-1,20,25], [3,6,4,8,12]])
 ñ= np.array([[1,2,3,4,5], [6,7,8,9,10]])
 print(y)
 print(ñ)
-#metodos:
+
+#metodos o funciones: 
 x= np.add(y,ñ) #sumar + o usar np.add (vamos a tener validacion de la suma o resta)
 print(x)
 
+u=np.array([7.8,5.6,3.4]) # a "round" le puede decir cuantos decimales quiero que me redondee (decimals=2)
+print(u.round())
 
+print(np.ceil(u)) # es parecido al "round" aproxima al techo 
 
+print(np.gradient(u)) #
 
 
