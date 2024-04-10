@@ -66,6 +66,6 @@ print(u.round())
 
 print(np.ceil(u)) # es parecido al "round" aproxima al techo 
 
-print(np.gradient(u)) #
+print(np.gradient(u)) 
 
 
